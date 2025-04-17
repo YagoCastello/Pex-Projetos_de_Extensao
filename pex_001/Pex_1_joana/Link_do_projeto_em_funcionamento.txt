@@ -1,0 +1,2 @@
+Segue abaixo o link do site em funcionamento, através do plugin "live server" do vscode
+https://www.youtube.com/watch?v=MJQrMpBo6-I
