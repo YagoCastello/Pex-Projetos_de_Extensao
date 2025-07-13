@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Municipal</title>
+    <meta name="description" content="Uma instituição de ensino de qualidade com piscina, aulas de espanhol e atividades complementares">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fonte Inter do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Ícones Lucide via CDN -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <div class="min-h-screen flex flex-col">
+        <!-- Header -->
+        <header class="header-fixed">
+            <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+                <div class="flex items-center">
+                    <img src="logo-escola.png" alt="Logo da Escola" width="40" height="40" class="mr-2" onerror="this.style.display='none'">
+                    <h1 class="text-xl font-bold text-green-600">CEPT Professora Zilca Lopes da Fontoura</h1>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav">
+                    <a href="#home" class="nav-link">Início</a>
+                    <a href="#features" class="nav-link">Recursos</a>
+                    <a href="#about" class="nav-link">Sobre</a>
+                    <a href="#activities" class="nav-link">Atividades</a>
+                    <a href="#contact" class="nav-link">Endereço</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="menu-toggle" class="mobile-menu-btn">
+                    <span class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav id="mobile-menu" class="mobile-nav">
+                <div class="mobile-nav-content">
+                    <a href="#home" class="mobile-nav-link">Início</a>
+                    <a href="#features" class="mobile-nav-link">Recursos</a>
+                    <a href="#about" class="mobile-nav-link">Sobre</a>
+                    <a href="#activities" class="mobile-nav-link">Atividades</a>
+                    <a href="#contact" class="mobile-nav-link">Endereço</a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section id="home" class="hero-section">
+                <div class="hero-overlay"></div>
+                <div class="container mx-auto px-4 relative z-10">
+                    <div class="hero-content">
+                        <h2 class="hero-title">Bem-vindo à Nossa Escola</h2>
+                        <p class="hero-subtitle">Aonde fornecemos educação de qualidade e atividades enriquecedoras para os nossos alunos.</p>
+                        <a href="#contact" class="cta-button">
+                            Matricule-se Agora 
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2">
+                                <polyline points="9,18 15,12 9,6"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section id="features" class="features-section">
+                <div class="container mx-auto px-4">
+                    <h2 class="section-title">Nossos Recursos Especiais</h2>
+
+                    <div class="features-grid">
+                        <!-- Swimming Pool -->
+                        <div class="feature-card">
+                            <div class="feature-image">
+                                <img src="piscina.jpg" alt="Piscina da Escola" onerror="this.parentElement.innerHTML='<div class=\'placeholder-icon bg-cyan-100\'><svg width=\'80\' height=\'80\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'#06b6d4\' stroke-width=\'2\'><path d=\'M6.5 12c.94-3.46 4.94-6 8.5-6s7.56 2.54 8.5 6c-.94 3.46-4.94 6-8.5 6s-7.56-2.54-8.5-6z\'></path><path d=\'M12 16v-2.5\'></path><path d=\'M12 8.5V6\'></path></svg></div>'">
+                            </div>
+                            <div class="feature-content">
+                                <h3 class="feature-title">Piscina</h3>
+                                <p class="feature-description">
+                                    Nossa escola possui uma piscina moderna onde os alunos aprendem segurança na água e técnicas de natação
+                                    sob supervisão profissional.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Spanish Classes -->
+                        <div class="feature-card">
+                            <div class="feature-image">
+                                <img src="espanhol.jpg" alt="Aulas de Espanhol" onerror="this.parentElement.innerHTML='<div class=\'placeholder-icon bg-yellow-100\'><svg width=\'80\' height=\'80\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'#eab308\' stroke-width=\'2\'><path d=\'M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z\'></path><path d=\'M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z\'></path></svg></div>'">
+                            </div>
+                            <div class="feature-content">
+                                <h3 class="feature-title">Aulas de Espanhol</h3>
+                                <p class="feature-description">
+                                    Oferecemos educação abrangente em língua espanhola para todos os níveis, ministrada por falantes nativos
+                                    com ampla experiência em ensino.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Complementary Activities -->
+                        <div class="feature-card">
+                            <div class="feature-image">
+                                <img src="atividades.jpg" alt="Atividades Complementares" onerror="this.parentElement.innerHTML='<div class=\'placeholder-icon bg-green-100\'><svg width=\'80\' height=\'80\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'#22c55e\' stroke-width=\'2\'><rect x=\'3\' y=\'4\' width=\'18\' height=\'18\' rx=\'2\' ry=\'2\'></rect><line x1=\'16\' y1=\'2\' x2=\'16\' y2=\'6\'></line><line x1=\'8\' y1=\'2\' x2=\'8\' y2=\'6\'></line><line x1=\'3\' y1=\'10\' x2=\'21\' y2=\'10\'></line></svg></div>'">
+                            </div>
+                            <div class="feature-content">
+                                <h3 class="feature-title">Atividades Complementares</h3>
+                                <p class="feature-description">
+                                    Nossa escola oferece uma ampla gama de atividades extracurriculares, incluindo esportes, artes, música e
+                                    clubes acadêmicos para enriquecer o desenvolvimento dos alunos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about-section">
+                <div class="container mx-auto px-4">
+                    <div class="about-content">
+                        <div class="about-image">
+                            <img src="predio-escola.jpg" alt="Prédio da Escola" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDYwMCA0MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0yNTAgMTUwSDM1MFYyNTBIMjUwVjE1MFoiIGZpbGw9IiNEMUQ1REIiLz4KPHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjg3NzgwIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgeD0iMjgwIiB5PSIxODAiPgo8cGF0aCBkPSJtMyA5IDktNyA5IDctMyAydjhIOHYtOGwtMyAyeiIvPgo8cG9seWxpbmUgcG9pbnRzPSI5LDIyIDksMTIgMTUsMTIgMTUsMjIiLz4KPHN2Zz4KPHR4dCB4PSIzMDAiIHk9IjMyMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE2IiBmaWxsPSIjNjg3NzgwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5QcsOpZGlvIGRhIEVzY29sYTwvdHh0Pgo8L3N2Zz4='">
+                        </div>
+                        <div class="about-text">
+                            <h2 class="section-title text-left">Sobre Nossa Escola</h2>
+                            <p class="about-paragraph">
+                               Inaugurado em 3 de junho de 2020, o Campus de Educação Pública Transformadora (CEPT) Professora Zilca Lopes da Fontoura foi implantado a partir da estrutura de um colégio particular desativado, que havia entrado em falência. Esta iniciativa visa o reaproveitamento de espaços existentes e a ampliação da rede de unidades educacionais no município de Maricá.
+
+O prédio foi cuidadosamente restaurado e adaptado, sendo destinado ao atendimento da população como um novo campus educacional, reafirmando o compromisso da gestão municipal com a ampliação do acesso à educação de qualidade.
+
+O CEPT Professora Zilca Lopes da Fontoura tem desempenhado um papel essencial na promoção do desenvolvimento educacional da comunidade, oferecendo uma formação integral que alia a excelência acadêmica ao crescimento pessoal dos estudantes.
+                            </p>
+                            <p class="about-paragraph">
+                                Nossa dedicada equipe de educadores cria um ambiente de aprendizado de apoio onde os alunos podem
+                                descobrir seu potencial e desenvolver as habilidades necessárias para o sucesso futuro.
+                            </p>
+                            <p class="about-paragraph">
+                                Com instalações modernas e um currículo diversificado, nos esforçamos para atender às necessidades
+                                educacionais de todos os alunos enquanto promovemos um senso de comunidade e pertencimento.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Activities Section -->
+            <section id="activities" class="activities-section">
+                <div class="container mx-auto px-4">
+                    <h2 class="section-title">Atividades Complementares</h2>
+                    <div id="activities-grid" class="activities-grid">
+                        <!-- Activities will be inserted here by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-section">
+                <div class="container mx-auto px-4">
+                    <h2 class="section-title text-white">Nosso Endereço</h2>
+
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <h3 class="contact-subtitle">Como Nos Encontrar</h3>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                    <p> R. Barão de Inoa, 137 - Centro, Maricá - RJ, 24901-010</p>
+                                </div>
+                                <div class="contact-item">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                    </svg>
+                                    <p>(21) 99915-6903</p>
+                                </div>
+                                <div class="contact-item">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                    <div class="link-chato">
+
+                                        <p><a target="_blank" href="https://www.instagram.com/ceptzilcalopesdafontoura/?hl=en">instagram</a>  </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="schedule-info">
+                                <h3 class="contact-subtitle">Horário de Funcionamento</h3>
+                                <p>Segunda - Sexta: 8:00 - 18:00</p>
+                                <p>Secretaria: 7:30 - 18:30</p>
+                            </div>
+                        </div>
+
+                        <div class="map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d649.6324398172745!2d-42.81911051918424!3d-22.917943043293896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99ed04d7f47d1b%3A0x1ace6c30d2f38794!2sCEPT%20Professora%20Zilca%20Lopes%20da%20Fontoura!5e0!3m2!1sen!2sbr!4v1748308284464!5m2!1sen!2sbr" 
+                                width="100%"
+                                height="100%"
+                                style="border: 0;"
+                                allowfullscreen=""
+                                loading="lazy"
+                                class="map-iframe">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container mx-auto px-4">
+                <div class="footer-content">
+                    <div class="footer-info">
+                        <h2 class="footer-title">CEPT Professora Zilca Lopes da Fontoura</h2>
+                        <p class="footer-subtitle">Educando os líderes de amanhã</p>
+                    </div>
+
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Política de Privacidade</a>
+                        <a href="#" class="footer-link">Termos de Serviço</a>
+                        <a href="#" class="footer-link">Mapa do Site</a>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; <span id="current-year"></span> CEPT Professora Zilca Lopes da Fontoura. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
