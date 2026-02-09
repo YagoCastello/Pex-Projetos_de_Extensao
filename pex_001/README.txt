@@ -1,19 +1,14 @@
 Ethereal by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+<div align="center">
 
-![img_readme001](https://github.com/YagoCastello/Pex-Projetos_de_Extensao/blob/main/pex_001/Captura%20de%20tela%202026-02-09%20113436.png)
+<img src="https://imgur.com/a/982DRFK" width="500">
 
-# Meu Projeto
 
-## Interface
-
-![Tela do sistema](imagem_readme/imagem_readme_001.png)
-
-## Fluxo
-
+</div>
 <p align="center">
-  <img src="https://imgur.com/a/982DRFK" width="500">
+  <img src="https://imgur.com/a/982DRFK" width="500px">
 </p>
 
 
