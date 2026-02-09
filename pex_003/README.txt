@@ -1,24 +1,20 @@
-# 📌 [Nome do Projeto]:Igreja Nossa Senhora do Amparo(PEX)
+# 📌 [Nome do Projeto]:Colégio Zilca(PEX)
 
 Projeto de Extensão (PEX) desenvolvido como parte das atividades da minha graduação na Faculdade Descomplica, cursando tecnologo de Análise e Desenvolvimento de Sistemas.
 
-📹 Baseado no vídeo: https://www.youtube.com/watch?v=zgBsP7BBKqE
-
+📹 Baseado no vídeo: https://youtu.be/LCuZyEs0a7c
 ---
 
 ## 🎯 Sobre o Projeto
 
-O site é um projeto de extensão universitária que visa criar uma nova página web para uma igreja centenária, trazendo o para um design mais atual e limpo.  
+O site é um projeto de extensão universitária que visa criar uma nova página web para um colégio da cidade aonde resido atualmente, trazendo o para um design mais atual e limpo.  
 O projeto busca integrar teoria e prática, aplicando conhecimentos acadêmicos aprendidos no curso para gerar impacto na comunidade e/ou resolver um problema real.
 
 ---
 
 ## 🧠 Objetivos
 
--Facilitar a obtenção de informações sobre a igreja, para os fiéis.
--Uma forma mais fácil de ficar informado sobre os eventos e acontecimentos relacionados a igreja matriz e as demais.
-
-
+-Facilitar a obtenção de informações sobre o colégio que se tornou publico, para os alunos e seus responsáveis.
 
 
 
@@ -34,7 +30,7 @@ O projeto busca integrar teoria e prática, aplicando conhecimentos acadêmicos 
 ## 📽️ Vídeo
 
 Assista ao vídeo do projeto aqui:  
-👉 https://www.youtube.com/watch?v=zgBsP7BBKqE
+👉 https://youtu.be/LCuZyEs0a7c?si=4E2HApMwdqTSCY_m
 
 ---
 
