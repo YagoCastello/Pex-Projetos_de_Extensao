@@ -1,32 +1,45 @@
-Massively by HTML5 UP
+# 📌 [Nome do Projeto]:História da cidade(PEX)
+
+Projeto de Extensão (PEX) desenvolvido como parte das atividades da minha graduação na Faculdade Descomplica, cursando tecnologo de Análise e Desenvolvimento de Sistemas.
+
+📹 Baseado no vídeo: youtube.com/watch?v=NkKoo6hZWoM&feature=youtu.be
+---
+
+## 🎯 Sobre o Projeto
+
+O site é um projeto de extensão universitária que visa criar uma página web aonde conta sobre a história da cidade aonde resido atualmente,trouxe alguns tópicos de forma resumida e com gravuras para facilitar a compreensão. O projeto traz um design mais atual e limpo.  
+O projeto busca integrar teoria e prática, aplicando conhecimentos acadêmicos aprendidos no curso para gerar impacto na comunidade e/ou resolver um problema real.
+
+---
+
+## 🧠 Objetivos
+
+-Facilitar a obtenção de informações sobre a fundação e história  da cidade, para os turistas e moradores.
+
+
+
+## 📌 Ferramentas / Tecnologias
+
+
+- html,css,js
+- vscode e o plugin live server
+- obs, como software de gravação de tela
+
+---
+
+## 📽️ Vídeo
+
+Assista ao vídeo do projeto aqui:  
+👉 https://youtu.be/NkKoo6hZWoM?si=xgsSqlVvcThato0B
+
+---
+
+
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT** ou similar.
+
+E foi utilizado como base um template do Ethereal by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
