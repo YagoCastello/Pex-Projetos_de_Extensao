@@ -1,13 +1,6 @@
-Ethereal by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# 📌 [Nome do Projeto]:Colégio Joana Benedicta Rangel(PEX)
 
-<img width="1392" height="755" alt="Image" src="https://github.com/user-attachments/assets/81b4800e-f96c-4062-a03a-b4823499c3d6" />
-
-
-# 📌 [Nome do Projeto] (PEX)
-
-Projeto de Extensão (PEX) desenvolvido como parte das atividades da minha graduação na [Nome da Faculdade].
+Projeto de Extensão (PEX) desenvolvido como parte das atividades da minha graduação na Faculdade Descomplica, cursando tecnologo de Análise e Desenvolvimento de Sistemas.
 
 📹 Baseado no vídeo: https://www.youtube.com/watch?v=MJQrMpBo6-I
 
@@ -15,46 +8,26 @@ Projeto de Extensão (PEX) desenvolvido como parte das atividades da minha gradu
 
 ## 🎯 Sobre o Projeto
 
-O **[Nome do Projeto]** é um projeto de extensão universitária que visa **[descrever o objetivo principal em uma frase]**.  
+O site é um projeto de extensão universitária que visa criar uma nova página web para um centro de educação, trazendo o para um design mais atual e limpo.  
 O projeto busca integrar teoria e prática, aplicando conhecimentos acadêmicos aprendidos no curso para gerar impacto na comunidade e/ou resolver um problema real.
 
 ---
 
 ## 🧠 Objetivos
 
-- **Principal:** [ex.: promover educação digital para a comunidade local]  
-- **Secundários:**
-  - [ex.: desenvolver materiais educativos]
-  - [ex.: capacitar participantes em ferramentas X ou técnica Y]
-  - [outro objetivo relevante]
+-Facilitar a obtenção de informações sobre o colégio, para os responsáveis dos alunos.
+-Uma forma mais fácil dos alunos se manterem informados sobre eventos futuros e atuais realizados no colégio.
+-Uma forma de facilitar a informação, para pessoas que possuam dúvidas e interesse de ingressar no EJA(Educação para Jovens e Adultos).
 
----
 
-## 🛠️ Atividades Realizadas
 
-Durante a execução do projeto foram realizadas:
-- [ex.: vídeos explicativos sobre tema X]
-- [ex.: oficinas presenciais/virtuais]
-- [ex.: entrevistas / pesquisa com a comunidade]
-- [ex.: análise de resultados e métricas]
-
-*Essas atividades foram gravadas e apresentadas no vídeo do PEX.*
-
----
-
-## 👨‍👩‍👧‍👦 Equipe e Participantes
-
-- **Coordenador:** [Nome se houver]
-- **Participantes / Bolsistas:** [Lista de alunos]
-- **Comunidade atendida:** [ex.: instituição parceira / público alvo]
-
----
 
 ## 📌 Ferramentas / Tecnologias
 
-Se aplicável, foram utilizadas:
-- [Tecnologia X, linguagem Y, software Z]
-  (ex.: edição de vídeo, ferramentas de design, plataformas educacionais, etc.)
+
+- html,css,js
+- vscode e o plugin live server
+- obs, como software de gravação de tela
 
 ---
 
@@ -65,12 +38,12 @@ Assista ao vídeo do projeto aqui:
 
 ---
 
-## 📝 Conclusão
 
-O projeto demonstra a aplicação prática dos conhecimentos acadêmicos com impacto social e educacional, contribuindo para a formação profissional e o desenvolvimento comunitário.
-
----
 
 ## 📄 Licença
 
 Este projeto está sob a licença **MIT** ou similar.
+
+E foi utilizado como base um template do Ethereal by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
